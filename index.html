@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fuatcan Genç</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9c42e5310.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".tab-menu a").click(function(event) {
+                event.preventDefault();
+                $(this).parent().addClass("current");
+                $(this).parent().siblings().removeClass("current");
+                var tab = $(this).attr("href");
+                $(".tab-content").not(tab).css("display", "none");
+                $(tab).fadeIn();
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+            <div class="container bg-custom">
+                <div class="row p-5">
+                    <div class="col-md-12 text-center text-white">
+                        <h2>Fuatcan Genç</h2>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <ul class="tab-menu text-center">
+                            <li class="current"><a href="#tab1"><button class="btn btn-light"><span class="fas fa-home fa-xs" aria-hidden="true"> ANA SAYFA</span></button></a></li>
+                            <li class="current"><a href="#tab2"><button class="btn btn-light"><span class="far fa-user fa-xs" aria-hidden="true"> HAKKIMDA</span></button></a></li>
+                            <li class="current"><a href="#tab3"><button class="btn btn-light"><span class="far fa-file-alt fa-xs" aria-hidden="true"> PROJELERİM</span></button></a></li>
+                            <li class="current"><a href="#tab4"><button class="btn btn-light"><span class="fas fa-envelope fa-xs" aria-hidden="true"> İLETİŞİM</span></button></a></li>
+                        </ul>
+                        <div class="tab-container">
+                            <div id="tab1" class="tab-content">
+                                <div class="row p-3">
+                                    <div class="col-md-12 text-center">
+                                        <img src="/img/admin.png" alt="admin" width="150rem;" class="rounded-circle img-thumbnail">
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-md-12 text-center">
+                                        <h5 class="text-white">Merhaba Ben Fuat,</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <h5 class="text-white">Bilgilerim</h5>
+                                    </div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-md-12 text-center">
+                                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quidem harum voluptates ullam rerum ducimus facilis. Qui ratione quas, corrupti animi praesentium earum consequatur modi maiores, non commodi laborum ea fuga voluptates quis, cum sit. Alias id, nisi et temporibus voluptatem debitis ducimus beatae aliquid dolor nam eaque harum magnam amet velit quos fuga sit cumque magni corrupti fugiat pariatur eos veniam? Quod doloremque ut velit quis rerum quam! Optio, quod pariatur dolorum ipsa impedit, obcaecati minus facilis et, sequi molestias dolorem quaerat ratione voluptatibus laboriosam! Eius ipsam vitae quia? Eos ipsa obcaecati sit voluptas quidem, voluptatem ullam veniam amet!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab2" class="tab-content">
+                               <div class="row">
+                                   <div class="col-md-12 text-center">
+                                       <h3 class="text-white">Hakkımda</h3>
+                                   </div>
+                               </div>
+                               <div class="row">
+                                   <div class="col-md-12 text-center">
+                                       <p class="text-white">
+                                        Samsun İlinin Çarşamba İlçesinde 1997'de dünyaya geldim. Küçüklüğümden beri bilgisayarla içli dışlı oldum, kodlamaya Mybb ile başlamıştım. Şu an Sakarya Uygulamalı Bilimler Üniversite'sinde Bilgisayar Programcılığı okuyorum. Front-end kısmında kendimi geliştirmeye devam ediyorum.
+                                       </p>
+                                   </div>
+                               </div>
+                            </div>
+                            <div id="tab3" class="tab-content">
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <h3 class="text-white">Son Çalışmalarım</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="https://i.hizliresim.com/EO7Bgz.png" class="img-thumbnail zoom" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://i.hizliresim.com/jqEa8L.png" class="img-thumbnail zoom" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://demo.w3layouts.com/demos_new/template_demo/11-02-2019/unrivaled_demo_Free/1793417822/web/images/g5.jpg" class="img-thumbnail zoom" alt="">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="https://demo.w3layouts.com/demos_new/template_demo/11-02-2019/unrivaled_demo_Free/1793417822/web/images/g3.jpg" class="img-thumbnail zoom" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://demo.w3layouts.com/demos_new/template_demo/11-02-2019/unrivaled_demo_Free/1793417822/web/images/g4.jpg" class="img-thumbnail zoom" alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://demo.w3layouts.com/demos_new/template_demo/11-02-2019/unrivaled_demo_Free/1793417822/web/images/g6.jpg" class="img-thumbnail zoom" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab4" class="tab-content">
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <h4 class="text-white">
+                                            Bana aşağıdaki sosyal medyalarımdan ulaşabilirsin.
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="row p-5">
+                                    <div class="col-md-12 text-center">
+                                        <a href="https://www.facebook.com/gencfuat1997" target="_blank"><button class="btn btn-light rounded-circlee"><span class="fab fa-facebook-f"> </span></button></a>
+                                        <button class="btn btn-light rounded-circlee" target="_blank"><span class="fab fa-twitter"> </span></button>
+                                        <a href="https://www.linkedin.com/in/fuatcan-gen%C3%A7-9b32b715b/"><button class="btn btn-light rounded-circlee"><span class="fab fa-linkedin-in"> </span></button></a>
+                                        <a href="https://github.com/RawShed" target="_blank"><button class="btn btn-light rounded-circlee"><span class="fab fa-github"> </span></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-md-12 text-center">
+                        <div class="tab-main">
+                            <button class="btn btn-danger"><span class="fas fa-home fa-xs" aria-hidden="true"> Home</span></button>
+                            <button class="btn btn-danger"><span class="far fa-user fa-xs" aria-hidden="true"> About</span></button>
+                            <button class="btn btn-danger"><span class="far fa-file-alt fa-xs" aria-hidden="true"> Projects</span></button>
+                            <button class="btn btn-danger"><span class="fas fa-envelope fa-xs" aria-hidden="true"> Contact</span></button>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- <div class="row p-3">
+                    <div class="col-md-12 text-center">
+                        <img src="/img/admin.jpg" alt="admin" width="90rem;" class="rounded-circle img-thumbnail">
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col-md-12 text-center">
+                        <h5 class="text-white">Merhaba Ben Fuat,</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h5 class="text-white">Bilgilerim</h5>
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col-md-12 text-center">
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis mollis arcu, vel vulputate justo consectetur quis. Donec quis fringilla arcu lorem ipsum dolor sit amet nullam. Consequat adipiscing phasellus.</p>
+                    </div>
+                </div> -->
+            </div>
+    </header>
+</body>
+</html>

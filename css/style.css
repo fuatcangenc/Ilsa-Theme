@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/11/16/forest-road-dark-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.row .col-md-12 h5,p{
+    font-weight: 200;
+}
+.tab-menu {
+	display:block;
+	margin:0;
+	padding:0;
+	text-align:left
+}
+.tab-menu li {
+	list-style:none;
+	display:inline-block;
+	margin:0 10px 10px 0
+}
+/* .tab-menu li a {
+	display:block;
+	color:#666;
+	padding:15px;
+	font-size:14px;
+	font-family: Arial;
+	text-decoration:none;
+	border:1px solid #ddd
+} */
+
+.tab-content {
+	display:none
+}
+#tab1 {
+	display:block
+}
+
+.tab-container {
+	padding:30px;
+	font-family: Arial;
+	font-size:14px;
+	color:#666
+}
+.current a {
+	background:#666 !important;
+	color:#fff !important
+}
+.zoom:hover{
+    cursor: pointer;
+    position: absolute;
+    transform: scale(1.0);
+    z-index: 999;
+}
+.rounded-circlee{
+    position: relative;
+    border-radius: 30% !important;
+    width: 2rem !important;
+    padding: 1rem;
+    opacity: 0.7;
+}
+.rounded-circlee:hover{
+    position: relative;
+    border-radius: 30% !important;
+    width: 2rem !important;
+    padding: 1rem;
+    transition: 1s;
+    opacity: 1;
+}
+.fa-home, .fa-user, .fa-file-alt, .fa-envelope{
+    color: #6c757d;
+}
+.fa-home:hover, .fa-user:hover, .fa-file-alt:hover, .fa-envelope:hover{
+    color: #ff4c4c;
+}
+.rounded-circlee .fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-github{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
